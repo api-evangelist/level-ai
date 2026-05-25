@@ -1,0 +1,98 @@
+aid: level-ai
+name: Level AI
+description: >-
+  Level AI (legally Ujwal Inc.) is a Mountain View, California contact center
+  AI company founded in 2019 by Ashish Nagar, a former member of Amazon's
+  Alexa conversational AI team. The company builds LLM-native customer
+  experience intelligence and service automation for enterprise contact
+  centers, with a platform spanning two product surfaces: a CX Delivery suite
+  (AI Virtual Agent, Agent Assist, AgentGPT, Coaching, Manager Assist,
+  Knowledge Bot, Auto Summary, Agent Screen Recording) and a CX Strategy
+  suite (Auto-QA on 100% of interactions, Voice of the Customer theme
+  detection, omnichannel Analytics, iCSAT, AI Workers). The proprietary
+  full-stack AI platform includes Level AI's own ASR/Voice AI and
+  semantic-intelligence layer trained on customer-service data, and is
+  positioned for financial services, insurance, healthcare, retail,
+  banking, and collections operations. Level AI exposes a public REST API
+  for bidirectional data exchange with BI tools and existing contact
+  center stacks, and ships native integrations across telephony, CRM,
+  customer support, workforce management, CX management, communication,
+  learning management, and SSO categories. The company has raised
+  $73.1M to date (Series A 2021, Series B 2022 led by Battery Ventures,
+  Series C $39.4M 2024 led by Adams Street Partners with Cross Creek,
+  Brightloop, Battery Ventures and Eniac Ventures), holds a 4.7/5 rating
+  on G2, and reports customer outcomes including 25% CSAT lift, 45% agent
+  satisfaction improvement, and 90% time savings on manual QA. The Level
+  AI GitHub organization (github.com/Level-AI) exists but is currently
+  empty — there is no public OpenAPI specification, public SDK, or
+  open-source release; the API is documented and credentialed through
+  the customer's tenant of the Level AI platform.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Artificial Intelligence
+  - Contact Center
+  - Customer Experience
+  - Conversational Intelligence
+  - Auto QA
+  - Quality Assurance
+  - Agent Assist
+  - Voice Of The Customer
+  - Generative AI
+  - Voice AI
+  - Speech Recognition
+  - Sentiment Analysis
+  - Coaching
+  - Call Center Analytics
+  - LLM
+url: https://raw.githubusercontent.com/api-evangelist/level-ai/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://thelevel.ai
+  - type: AIPlatform
+    url: https://thelevel.ai/ai-platform/
+  - type: AgentAssist
+    url: https://thelevel.ai/agent-assist/
+  - type: AgentGPT
+    url: https://thelevel.ai/agentgpt/
+  - type: AutoQA
+    url: https://thelevel.ai/auto-qa/
+  - type: Analytics
+    url: https://thelevel.ai/analytics/
+  - type: Coaching
+    url: https://thelevel.ai/coaching/
+  - type: Integrations
+    url: https://thelevel.ai/integrations/
+  - type: ChannelPartners
+    url: https://thelevel.ai/channel-partners/
+  - type: ResourceCenter
+    url: https://thelevel.ai/resource-center/
+  - type: Blog
+    url: https://thelevel.ai/blog/
+  - type: AboutUs
+    url: https://thelevel.ai/about-us/
+  - type: Careers
+    url: https://thelevel.ai/careers/
+  - type: ContactUs
+    url: https://thelevel.ai/contact-us/
+  - type: Login
+    url: https://level.thelevel.ai/
+  - type: GitHub
+    url: https://github.com/Level-AI
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/level-ai
+  - type: Twitter
+    url: https://twitter.com/thelevelai
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/level-ai
+  - type: G2
+    url: https://www.g2.com/products/level-ai/reviews
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
