@@ -3,13 +3,12 @@
   "feeds": [
     {
       "source": "https://thelevel.ai/blog/",
-      "error": "HTTPError"
-    },
-    {
-      "source": "https://thelevel.ai/resource-center/",
-      "error": "HTTPError"
+      "feed_url": "",
+      "saved": 0,
+      "method": "agent-scrape"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 3,
+  "fetched": "2026-06-27T12:53:44Z",
+  "agent_pulled": "2026-06-27"
 }
