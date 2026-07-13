@@ -2,13 +2,14 @@
   "repo": "level-ai",
   "feeds": [
     {
-      "source": "https://thelevel.ai/blog/",
-      "feed_url": "",
+      "source": "https://thelevel.ai/resource-center/",
+      "feed_url": "https://thelevel.ai/resource-center/",
+      "title": "",
       "saved": 0,
-      "method": "agent-scrape"
+      "method": "none"
     }
   ],
-  "post_count": 3,
-  "fetched": "2026-06-27T12:53:44Z",
-  "agent_pulled": "2026-06-27"
+  "post_count": 5,
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04"
 }
