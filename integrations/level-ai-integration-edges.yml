@@ -2,6 +2,8 @@ generated: '2026-10-14'
 method: searched
 checked:
 - okta/integrations/okta-integration-edges.yml
+- talkdesk/integrations/talkdesk-integration-edges.yml
+- zendesk/integrations/zendesk-integration-edges.yml
 source:
 - okta/integrations/okta-integration-edges.yml
 edges:
@@ -26,3 +28,36 @@ edges:
   - OKTA_VERIFIED
   features:
   - SAML
+- partner_name: Talkdesk (own)
+  partner: talkdesk
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appconnect.talkdesk.com/apps/level-ai
+  mirror_of: talkdesk/integrations/talkdesk-integration-edges.yml
+  apps:
+  - Level AI
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+- partner_name: Zendesk (own)
+  partner: zendesk
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.zendesk.com/marketplace/apps/support/368649/level-ai-agent-assist/
+  mirror_of: zendesk/integrations/zendesk-integration-edges.yml
+  apps:
+  - Level AI Agent Assist
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: AI and Bots
