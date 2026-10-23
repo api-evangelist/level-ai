@@ -10,9 +10,37 @@ checked:
 - https://www.indexventures.com/companies/
 - https://www.sequoiacap.com/our-companies/
 - https://www.sequoiacap.com/sitemap.xml
+- intercom/integrations/intercom-integration-edges.yml
 source:
 - okta/integrations/okta-integration-edges.yml
 edges:
+- partner_name: Battery Ventures
+  partner: battery-ventures
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.battery.com/company/level-ai/
+  category: vc portfolio participation
+  contract_reference:
+    register: Battery Ventures companies (battery.com/company/, the page's own admin-ajax list + company pages)
+    standard: null
+    spec_file: null
+    role: vc-portfolio-company
+    registered_name: Level AI
+    register_id: https://www.battery.com/company/level-ai/
+    register_country: Mountain View, California
+    register_website: https://thelevel.ai/
+    matched_domain: thelevel.ai
+    matched_by: domain
+    signal_note: 'participation only: the venture firm''s own published portfolio lists the company (investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-vc-portfolios.py
+    detected: '2026-10-21'
+    status: Active
+  detected_by: sweep-vc-portfolios.py
+  first_seen: '2026-10-21'
 - partner_name: Okta (own)
   partner: okta
   partner_match: mirror
@@ -67,30 +95,20 @@ edges:
   detected: '2026-10-19'
   detected_by: mirror-platform-listings.py
   category: AI and Bots
-- partner_name: Battery Ventures
-  partner: battery-ventures
-  partner_match: register
-  type: register
-  channel: standard-directory
-  relationship: standard-participant
-  direction: partner-built
-  evidence: https://www.battery.com/company/level-ai/
-  category: vc portfolio participation
-  contract_reference:
-    register: Battery Ventures companies (battery.com/company/, the page's own admin-ajax list + company pages)
-    standard: null
-    spec_file: null
-    role: vc-portfolio-company
-    registered_name: Level AI
-    register_id: https://www.battery.com/company/level-ai/
-    register_country: Mountain View, California
-    register_website: https://thelevel.ai/
-    matched_domain: thelevel.ai
-    matched_by: domain
-    signal_note: 'participation only: the venture firm''s own published portfolio lists the company (investment);
-      an ownership and participation record, not conformance or certification'
-    detected_by: sweep-vc-portfolios.py
-    detected: '2026-10-21'
-    status: Active
-  detected_by: sweep-vc-portfolios.py
-  first_seen: '2026-10-21'
+- partner_name: Intercom (own)
+  partner: intercom
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.intercom.com/app-store/?app_package_code=level-ai
+  mirror_of: intercom/integrations/intercom-integration-edges.yml
+  apps:
+  - Level AI
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Analytics
