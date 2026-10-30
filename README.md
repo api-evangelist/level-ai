@@ -1,4 +1,4 @@
-# level-ai
+# Level AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Level AI — contact center auto-QA, agent assist, and conversational intelligence (Mountain View, CA)
+Level AI (legally Ujwal Inc.) is a Mountain View, California contact center AI company founded in 2019 by Ashish Nagar, a former member of Amazon's Alexa conversational AI team. The company builds LLM-native customer experience intelligence and service automation for enterprise contact centers, with a platform spanning two product surfaces: a CX Delivery suite (AI Virtual Agent, Agent Assist, AgentGPT, Coaching, Manager Assist, Knowledge Bot, Auto Summary, Agent Screen Recording) and a CX Strategy suite (Auto-QA on 100% of interactions, Voice of the Customer theme detection, omnichannel Analytics, iCSAT, AI Workers). The proprietary full-stack AI platform includes Level AI's own ASR/Voice AI and semantic-intelligence layer trained on customer-service data, and is positioned for financial services, insurance, healthcare, retail, banking, and collections operations. Level AI exposes a public REST API for bidirectional data exchange with BI tools and existing contact center stacks, and ships native integrations across telephony, CRM, customer support, workforce management, CX management, communication, learning management, and SSO categories. The company has raised $73.1M to date (Series A 2021, Series B 2022 led by Battery Ventures, Series C $39.4M 2024 led by Adams Street Partners with Cross Creek, Brightloop, Battery Ventures and Eniac Ventures), holds a 4.7/5 rating on G2, and reports customer outcomes including 25% CSAT lift, 45% agent satisfaction improvement, and 90% time savings on manual QA. The Level AI GitHub organization (github.com/Level-AI) exists but is currently empty — there is no public OpenAPI specification, public SDK, or open-source release; the API is documented and credentialed through the customer's tenant of the Level AI platform.
+
+**Areas:** Artificial Intelligence · Contact Center · Customer Experience · Conversational Intelligence · Auto QA · Quality Assurance · Agent Assist · Voice of the Customer · Generative AI · Voice AI · Speech Recognition · Sentiment Analysis
+
+## Level AI on APIs.io
+
+Everything profiled for Level AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/level-ai/](https://apis.io/providers/level-ai/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Level Ai Domain Security](https://apis.io/security/level-ai/level-ai-domain-security/)
+- [Level Ai Trust Center](https://apis.io/security/level-ai/level-ai-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://thelevel.ai)
+- [Blog](https://thelevel.ai/blog/)
+
+## API Evangelist rating
+
+**Kin Score 7.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 14.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.0** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/level-ai/](https://apis.io/providers/level-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Level AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/level-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
